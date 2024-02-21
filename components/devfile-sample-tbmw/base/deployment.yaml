@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-tbmw
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0038-tenant/tkrw-pr712-0075-0038-app/devfile-sample-tbmw@sha256:75e57bb66fd27e5afd0104f16730e460cf50bfc44ae7456ed6618925cbe45604
         name: my-nodejs
         ports:
         - containerPort: 3001
